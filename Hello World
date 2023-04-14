@@ -16,7 +16,6 @@ public class HelloWorld2 : MonoBehaviour
     void Start()
     {
         Showtime();
-            static void Main(string[] args)
     {
         Debug.LogFormat("hello world");
     }
