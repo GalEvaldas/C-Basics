@@ -1,0 +1,36 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using System;
+
+public class Print : MonoBehaviour
+{
+    // Start is called before the first frame update
+
+    void Start()
+    {
+        static void Mano(string[] args)
+        {
+            Debug.Log("combinedText");
+            Print myProram = new Print();
+            myProram.Printt();
+
+        }
+        string[] myArgs = new string[] { "arg1", "arg2", "arg3" }; // Create an example array of strings
+        Mano(myArgs); // Call the Mano method with the array of strings as argument
+    
+        
+    }
+void Printt()
+        {
+            Debug.Log("combinedTexttttt");
+        }
+    // Custom method with string array parameter
+    
+
+    // Update is called once per frame
+    void Update()
+    {
+
+    }
+}
