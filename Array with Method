@@ -1,0 +1,27 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using System;
+public class Variable : MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start()
+    {
+        static void Mano(string[] args)
+        {
+            int[] a = { 1};
+            Test(a);
+            Debug.Log(a[0]);
+           
+        }
+        string[] myArgs = new string[] { "arg1", "arg2", "arg3" }; // Create an example array of strings
+        Mano(myArgs); // Call the Mano method with the array of strings as argument
+
+    }
+   static void Test(int[] a)
+    {
+        Debug.Log(a[0]);
+        a[0] = 100;
+        Debug.Log(a[0]);
+    }
+}
