@@ -1,0 +1,24 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Array02 : MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start()
+    {
+        string name = "Evaldas";
+        char[] characters = { 'h', 'e', 'l', 'l', 'o' };
+        string greeting = new string(characters);
+
+        string message = $"Hello my name is {name}, and I like to say {greeting}";
+        Debug.Log(message);
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
