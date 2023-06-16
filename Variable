@@ -14,7 +14,7 @@ public class Variable : MonoBehaviour
             Debug.Log(x + "combinedText");
         }
         string[] myArgs = new string[] { "arg1", "arg2", "arg3" }; // Create an example array of strings
-        Mano(myArgs); // Call the Mano method with the array of strings as argument
+        Mano(myArgs); // Call the Mano method with the array of strings as  argument
 
     }
    
