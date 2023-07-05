@@ -12,7 +12,7 @@ public class HelloWorld2 : MonoBehaviour
     {
         Main(new string[] { "arg1"});
     }
-    // Start is called before the first frame update
+    //Start is called before the first frame update
     void Start()
     {
         Showtime();
